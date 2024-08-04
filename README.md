@@ -85,6 +85,47 @@ Estos son los metodos principales de validacion con lo que cuneta el sistema en 
 
 
 # Instalación
+1.- primero descargamos las carpetas, las cuales ya tieine las clases, las interfaces, los jars que utilizaremos para poder hacer que funcione correctante.
 
 
+![image](https://github.com/user-attachments/assets/eb8a8881-3d23-43f7-b411-a662037f1f9b)
+
+2. Una vez descargados, los descomprimimos y nos dirigimos a nuestro IDE (apache netbeans), una vez dentro abrimos el proyecto y esperamos a que cargen los datos
+3. En la carpeta que dice libreries agregamos los jars, nos quedaria de la siguiente manera
+   
+![image](https://github.com/user-attachments/assets/a0ceff0c-0bb7-4660-ad4c-b485018dbafa)
+
+4. posteriormente nos dirigimos a la clase coneccion donde pondremos la contraseña de nuestro MySQL.
+5. Nos direigmos a las siguinetes clases:
+   ConvertidorPDF
+````
+  private void enviarCorreoConPDF(String rutaArchivo, String destinatario, String asunto, String cuerpo) {
+        
+        String host = "smtp.gmail.com"; 
+        final String usuario = "";  //correo
+        final String clave = ""; //contraseña
+
+````
+   GeneracionPDFCredeciales
+````
+  public void enviarCorreoConPDF(String rutaArchivo, String destinatario, String asunto, String cuerpo, String contrasena) {
+        String host = "smtp.gmail.com";
+        final String usuario = ""; //correo
+        final String clave = ""; //contraseña
+
+        Properties props = new Properties();
+        props.put("mail.smtp.auth", "true");
+        props.put("mail.smtp.starttls.enable", "true");
+        props.put("mail.smtp.host", host);
+        props.put("mail.smtp.port", "587");
+
+````
+`Nota: para que funcione el correo del remitente tiene que ser  de gmail( en caso de que sea diferente dentra que cambiar el host)`
+`Nota: en el correo remitente debe habilitar la opcion de aplicaciones menos seguras`
+en esas partes pondremos las credenciales de nuestro correo remitente 
+6. En las siguientes clases debera cambiar las rutas para que se guarden los archivos PDF
+  -AccionesBotonCajero
+  -GeneracionCodigo
+  -GeneracionCodigo
+7. Con respecto a la base de datos tendra que abrir su gestor e importarla
 
