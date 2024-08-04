@@ -136,7 +136,13 @@ en esas partes pondremos las credenciales de nuestro correo remitente
    
   5. Realizamos las pruebas para ver el funcionamiento adecuado
 
+##Imagenes 
+A continuación, se presentan algunas imágenes de muestra que ilustran diferentes aspectos y funcionalidades de este proyecto. Estas imágenes ayudan a proporcionar una visión clara de cómo se ve y funciona la aplicación.
+-Login
+
+
 ## Autores
 Estudiantes de la materia de TAP_Verano
 Hernandez Reyes Pedro de Jesus
+Ignacio Aguilar Eber Aldair 
 
