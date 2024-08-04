@@ -95,8 +95,12 @@ Estos son los metodos principales de validacion con lo que cuneta el sistema en 
    
 ![image](https://github.com/user-attachments/assets/a0ceff0c-0bb7-4660-ad4c-b485018dbafa)
 
-4. posteriormente nos dirigimos a la clase coneccion donde pondremos la contraseña de nuestro MySQL.
-5. Nos direigmos a las siguinetes clases:
+4. Con respecto a la base de datos tendra que abrir su gestor e importarla, con esto acompletamos la instalación
+
+# API
+ 
+1. posteriormente nos dirigimos a la clase coneccion donde pondremos la contraseña de nuestro MySQL.
+2. Nos direigmos a las siguinetes clases:
    ConvertidorPDF
 ````
   private void enviarCorreoConPDF(String rutaArchivo, String destinatario, String asunto, String cuerpo) {
@@ -125,9 +129,14 @@ Estos son los metodos principales de validacion con lo que cuneta el sistema en 
 `Nota: en el correo remitente debe habilitar la opcion de aplicaciones menos seguras`
 en esas partes pondremos las credenciales de nuestro correo remitente 
 
-6. En las siguientes clases debera cambiar las rutas para que se guarden los archivos PDF
+3. En las siguientes clases debera cambiar las rutas para que se guarden los archivos PDF
   -AccionesBotonCajero
   -GeneracionCodigo
   -GeneracionCodigo
-  
-7. Con respecto a la base de datos tendra que abrir su gestor e importarla, con esto acompletamos la instalación
+   
+  5. Realizamos las pruebas para ver el funcionamiento adecuado
+
+## Autores
+Estudiantes de la materia de TAP_Verano
+Hernandez Reyes Pedro de Jesus
+
