@@ -121,11 +121,13 @@ Estos son los metodos principales de validacion con lo que cuneta el sistema en 
 
 ````
 `Nota: para que funcione el correo del remitente tiene que ser  de gmail( en caso de que sea diferente dentra que cambiar el host)`
+
 `Nota: en el correo remitente debe habilitar la opcion de aplicaciones menos seguras`
 en esas partes pondremos las credenciales de nuestro correo remitente 
+
 6. En las siguientes clases debera cambiar las rutas para que se guarden los archivos PDF
   -AccionesBotonCajero
   -GeneracionCodigo
   -GeneracionCodigo
-7. Con respecto a la base de datos tendra que abrir su gestor e importarla
-
+  
+7. Con respecto a la base de datos tendra que abrir su gestor e importarla, con esto acompletamos la instalación
