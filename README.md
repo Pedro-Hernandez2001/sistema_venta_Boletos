@@ -136,31 +136,31 @@ en esas partes pondremos las credenciales de nuestro correo remitente
    
   5. Realizamos las pruebas para ver el funcionamiento adecuado
 
-#Imagenes 
+## Imagenes 
 
 A continuación, se presentan algunas imágenes de muestra que ilustran diferentes aspectos y funcionalidades de este proyecto. Estas imágenes ayudan a proporcionar una visión clara de cómo se ve y funciona la aplicación.
 
--Login
+### Login
 ![Login](https://github.com/user-attachments/assets/1084e0dc-a2cf-4236-9127-4ff1024dcf9a)
 
--Vista del gerente 
+### Vista del gerente 
 
 ![Gerente](https://github.com/user-attachments/assets/664728d0-adc2-4a6a-9c76-adeaba01efd4)
 
--Vistas del gerente 
+### Vistas del gerente 
 
--Registrar Empleado
+### Registrar Empleado
 ![Empleado](https://github.com/user-attachments/assets/1eb15244-e3ab-4081-b201-13472d9216c1)
 
--Registrar Autobus
+### Registrar Autobus
 
 ![Autobus](https://github.com/user-attachments/assets/1f834e98-7ec1-4cc3-8ddf-1b7452bcf680)
 
--Registrar Viaje
+### Registrar Viaje
 
 ![Viaje](https://github.com/user-attachments/assets/08999675-08ac-4e5d-a164-9fe81a939937)
 
--Tablas de Cajero, Chofer, Autobus,Viaje
+### Tablas de Cajero, Chofer, Autobus,Viaje
 
 ![Tabala Cajero](https://github.com/user-attachments/assets/0fddb5c5-d22d-4859-b1fc-eea32637becc)
 
@@ -170,15 +170,15 @@ A continuación, se presentan algunas imágenes de muestra que ilustran diferent
 
 ![Tabla Viajes](https://github.com/user-attachments/assets/ba66c8d7-7815-4e0e-b4ed-e0bf49b7f935)
 
--Vistas del Cajero 
+### Vistas del Cajero 
 
 ![Cajero](https://github.com/user-attachments/assets/26dd69fb-cfb6-4f82-ac9f-2c1397d03306)
 
--Ver Viajes
+### Ver Viajes
 
 ![Ver Viajes](https://github.com/user-attachments/assets/20d2f157-b281-4567-ac7c-877268512259)
 
--Venta de viajes 
+### Venta de viajes 
 
 ![Venta](https://github.com/user-attachments/assets/886f2839-5cbb-46f5-a84e-ec1030078c81)
 
